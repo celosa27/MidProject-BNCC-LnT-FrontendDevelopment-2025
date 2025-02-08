@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #6859ea, #6acbe0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+    transition: transform 0.2s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-besar {
+    display: flex;
+    width: 90%;
+    height:80vh;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.container-kiri {
+    flex: 1;
+    padding: 30px;
+    margin: 10px;
+    background:#ECF7FE;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.container-kanan {
+    flex: 1;
+    padding: 30px;
+    margin: 10px;
+    background:white;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #2C3E50;
+}
+
+.contact-info img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.contact-text{
+    margin-bottom:20px;
+    color:#1A237E;
+    font-size: 30px;
+}
+
+.tell-text{
+    margin-bottom:20px;
+    color:black;
+    font-size: 28px;
+}
+
+.complaint-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.complaint-section label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.complaint-section input, 
+.complaint-section textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.complaint-section button {
+    background-color: #4c6fff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.complaint-section button:hover {
+    background-color: #3a5aff;
+}

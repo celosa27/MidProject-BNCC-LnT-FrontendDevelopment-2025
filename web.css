@@ -1,0 +1,144 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: linear-gradient(to left, #6859ea, #6acbe0);
+    }
+
+    .page-container {
+        display: flex;
+        height: 80vh;
+    }
+
+    .content-left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        color: white;
+    }
+
+    .content-right {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-right img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    .main-title {
+        font-size: 60px;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        font-family:'Inter', 'Helvetica Neue', sans-serif;
+    }
+
+    .sub-title{
+        font-size: 27px;
+        margin-bottom: 30px;
+        line-height: 1.2;
+        font-family: 'Inter', 'Helvetica Neue', sans-serif;
+        color:#F5F5F5;
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 15px;
+    }
+
+    .btn {
+        padding: 20px 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .btn-login {
+        background-color: #1E3A8A;
+        color: white;
+    }
+
+    .btn-register {
+        background-color: #F7B32D;
+        color: rgb(255, 255, 255);
+    }
+
+    a.btn:link, 
+    a.btn:visited, 
+    a.btn:hover, 
+    a.btn:active {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .navbar {
+        background-color: white;
+        padding: 1px 30px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .pictures1{
+        width: 250px;
+    }
+
+    .pictures2{
+        width: 500px;
+    }
+
+
+    .home-text {
+        color:grey;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+   }
+
+   .listcourse-text {
+        color:grey;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 19px;
+        text-decoration: none;
+   }
+
+   .contact-text {
+        color: grey;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 19px;
+        text-decoration: none;
+   }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 1px;
+        justify-content: space-between;
+    }
+    .position-pic {
+        padding: 5px;
+        text-align: center;
+        border-radius: 8px;
+    }
+
+    .position-text {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .right-group {
+        display: flex;
+        gap: 10px;
+    }
+    
